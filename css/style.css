@@ -24,8 +24,6 @@ header img {
 header nav {
   float: right;
   margin-top: 10px;
-  position: sticky;
-  position: -webkit-sticky; /* Safari */
   top: 0px;
 }
 header nav a {
