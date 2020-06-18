@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'MuseoModerno', cursive;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.home-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+header {
+  position: fixed;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: rgba(48, 48, 48, 0.5);
+}
+header img {
+  width: 200px;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0px;
+}
+header nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 0px 10px;
+}
+
+header nav a.active {
+  background-color: #fed136;
+  border-radius: 3px;
+}
+/* header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+} */
+
+#home {
+  text-align: center;
+  padding: 200px 0px 150px;
+}
+
+#home h1 {
+  font-size: 68px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+#home .divider {
+  width: 80px;
+  border-top: 5px solid #fed136;
+  margin: 0 auto;
+}
+
+#home p {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#home .social {
+  margin-top: 80px;
+}
+
+#home .social a {
+  color: white;
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  margin: 0px 5px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+#home .social a:hover {
+  background-color: #fed136;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#services .box {
+  display: inline-block;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+
+#briefcase {
+  background-color: whitesmoke;
+}
+
+#video {
+  background-color: black;
+  text-align: center;
+}
+
+#briefcase .box {
+  display: inline-block;
+  width: 31%;
+  margin: 1%;
+  /* padding: 10px; */
+  text-align: center;
+  background-color: white;
+}
+
+#briefcase .box img {
+  width: 100%;
+}
+#briefcase .box p {
+  color: #666;
+  padding: 10px;
+}
+
+#contact {
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact input {
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#contact textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contact button {
+  background-color: #fed136;
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+footer {
+  padding: 90px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.center-container {
+  /* background-color: aquamarine; */
+  /* display: block; */
+  width: 992px;
+  margin: 0px auto;
+}
