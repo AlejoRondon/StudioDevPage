@@ -11,6 +11,8 @@ body {
   background-size: cover;
   height: 100vh;
   color: white;
+  /* position: fixed; */
+  background-attachment: fixed;
 }
 header {
   position: fixed;
